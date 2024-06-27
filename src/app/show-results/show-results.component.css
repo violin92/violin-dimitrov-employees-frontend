@@ -1,0 +1,42 @@
+.results-container {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 50%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th.mat-header-cell {
+    background-color: #3f51b5;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+td.mat-cell {
+    padding: 10px;
+}
+
+tr.mat-row:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.mat-elevation-z8 {
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.mat-header-row {
+    height: 56px;
+}
+
+.mat-cell {
+    height: 48px;
+}
